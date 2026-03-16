@@ -1,0 +1,12 @@
+[versions]
+agp = "9.1.0"
+kotlinxSerializationJson = "1.10.0"
+datastoreCore = "1.2.1"
+
+[libraries]
+androidx-datastore = { module = "androidx.datastore:datastore", version.ref = "datastoreCore" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+
+[plugins]
+android-library = { id = "com.android.library", version.ref = "agp" }
+
