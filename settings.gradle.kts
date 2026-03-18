@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Localstorage"
 include(":localstorage")
+include(":sample")
